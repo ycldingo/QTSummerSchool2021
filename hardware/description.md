@@ -7,4 +7,29 @@ In this topic, we will explore the hardware via [qiskit.pulse](https://qiskit.or
 1. Find the second energy level and ontain the value of anharmonicity, discuss the fundamental control conditions for superconducting qubits.
 2. Measure the elementary parameters of a real device such as decay rates, qubit coherence and coupling strength with the introduction to Janyes-Cummings model.
 
-## Channels ```qiskit.pulse.channels```
+## Channels (```qiskit.pulse.channels```)
+The backend which executes our programs is responsible for mapping the virtual channels to the proper physical channel within the quantum control hardware.
+1. ```DriveChannel```: Drive channels transmit gate operation signal.
+2. ```MeasureChannel```: Measure channels transmit measurement pulse for readout.
+3. ```AcquireChannel```: Acquire channels are used to collect data.
+4. ```ControlChannel```: Control channels provides supplementary control to the drive channel.
+5. ```RegisterSlot```: Classical registers
+6. ```MemorySlot```: Memory slots represent classical memory storage.
+
+## Schedules (```qiskit.pulse.Schedule```)
+Schedules are Pulse programs. They describe instruction sequences for the control hardware.
+A quantum program *schedule* with exact time constraints for its instructions, operating over all input signal *channels* and supporting special syntaxes for building.
+1. Append an instruction to ```sched1```
+```
+sched1 = Schedule()
+sched1 += Play(Gaussian(160, 0.1, 40), DriveChannel(0))
+```
+2. Append an instruction to ```sched2``` shifted in time by a given amount
+```
+sched2 = Schedule()
+sched2 += Play(Gaussian(160, 0.1, 40), DriveChannel(0)) << 30
+```
+3. Merge two schedules ```sched1``` and ```sched2```
+```
+sched2 = sched1 | sched2
+```
