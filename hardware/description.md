@@ -11,6 +11,9 @@ In this topic, we will explore the hardware via [qiskit.pulse](https://qiskit.or
 1. Find the second energy level and ontain the value of anharmonicity, discuss the fundamental control conditions for superconducting qubits.
 2. Measure the elementary parameters of a real device such as decay rates, qubit coherence and coupling strength with the introduction to Janyes-Cummings model.
 
+
+# Fundamental Background
+
 ## Channels (`qiskit.pulse.channels`)
 The backend which executes our programs is responsible for mapping the virtual channels to the proper physical channel within the quantum control hardware.
 1. `DriveChannel`: Drive channels transmit gate operation signal.
