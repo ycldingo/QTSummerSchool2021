@@ -13,7 +13,9 @@ In this topic, we will
 # Fundamental Background
 
 ## Basic elements of random walks
+
 There are two essential elements for random walks, regardless of their version:
+
 - Coin
   The coin operation $\mathcal{C}$ determines the direction of the walker.
   For example, if a 1D case is in consideration, the coin is two-sided, corresponding to the forward $|R\rangle$ and backward $|L\rangle$ shifting options.
@@ -40,6 +42,7 @@ There are two essential elements for random walks, regardless of their version:
   +
   |L\rangle \langle L| \otimes |n-1\rangle \langle n|.
   $$
+
 Therefore, the time evolution of the walker will be a combination of the coin and the shift.
 For the quantum random walk, the propagator reads
 $$
