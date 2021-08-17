@@ -46,9 +46,9 @@ $$
 $$
 Please be noticed that the order of the two operators cannot be switched, i.e., they are not commutable: $[\mathcal{S}, \mathcal{C}] \neq 0$.
 Here we can see that the whole system is spanned by two subspaces, such that
-$$
+$
 \mathcal{H} = \mathcal{H}_c \otimes \mathcal{H}_p.
-$$
+$
 
 The state of the walker can thua be denoted by the tensor product of coin and position states as
 $$
