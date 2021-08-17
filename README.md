@@ -12,6 +12,7 @@
     - [Noise](https://github.com/Qiskit/qiskit-tutorials/tree/master/tutorials/noise)
     - [Simulators](https://github.com/Qiskit/qiskit-tutorials/tree/master/tutorials/simulators)
 - [Qiskit Global Summer School 2020](https://qiskit.org/events/summer-school/)
+- [IBM Quantum Challenge 2021](https://challenges.quantum-computing.ibm.com/africa21)
 - Materials for NTU Quantum Computing Summer School
   - [2020](https://github.com/ycldingo/QuantumComputing_2020Summer)
   - [2019](https://github.com/m24639297/2019-summer-QC)
