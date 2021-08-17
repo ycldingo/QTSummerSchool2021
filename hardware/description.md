@@ -61,3 +61,13 @@ sched2 = sched1 | sched2
         g(x- (d-r)) & d-r \leq x
         \end{cases}
         $$
+    5. `square(duration, amp, freq, phase)`: 
+        $$
+        f(x) = 
+        A \text{sign}
+        \left[
+        \sin\left(
+         \dfrac{2\pi x}{T} + 2 \phi
+        \right)
+        \right]
+        $$
