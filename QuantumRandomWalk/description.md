@@ -15,10 +15,7 @@ In this topic, we will
 ## Basic elements of random walks
 
 There are two essential elements for random walks, regardless of their version:
-- Coin
- 
-The coin operation $\mathcal{C}$ determines the direction of the walker.
-For example, if a 1D case is in consideration, the coin is two-sided, corresponding to the forward $|R\rangle$ and backward $|L\rangle$ shifting options.  A common choice for this $2\times2$ coin is a Hadamard coin
+- Coin: The coin operation $\mathcal{C}$ determines the direction of the walker. For example, if a 1D case is in consideration, the coin is two-sided, corresponding to the forward $|R\rangle$ and backward $|L\rangle$ shifting options.  A common choice for this $2\times2$ coin is a Hadamard coin
 
 $$
 \mathcal{C}
@@ -29,10 +26,7 @@ $$
 \end{pmatrix}.
 $$
 
-- Shift
-
-The conditional shift operation $\mathcal{S}$ will shift the walker according to its coin state.
-The operator is given by
+- Shift: The conditional shift operation $\mathcal{S}$ will shift the walker according to its coin state. The operator is given by
 $$
 \mathcal{S}
 :=
