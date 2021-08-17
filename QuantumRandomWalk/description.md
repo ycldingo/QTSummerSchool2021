@@ -37,12 +37,17 @@ $$
 |L\rangle \langle L| \otimes |n-1\rangle \langle n|.
 $$
 
+The summation over $n$ goes over all available position.
 Therefore, the time evolution of the walker will be a combination of the coin and the shift.
 For the quantum random walk, the propagator reads
 $$
 \mathcal{U} = \mathcal{S} \mathcal{C}.
 $$
 Please be noticed that the order of the two operators cannot be switched, i.e., they are not commutable: $[\mathcal{S}, \mathcal{C}] \neq 0$.
+Here we can see that the whole system is spanned by two subspaces, such that
+$$
+\mathcal{H} = \mathcal{H}_c \otimes \mathcal{H}_p.
+$$
 
 
 
