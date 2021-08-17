@@ -24,7 +24,7 @@ A common choice for this $2\times2$ coin is a Hadamard coin
 
 $$
 \mathcal{C}
-:=
+=
 H
 =
 \dfrac{1}{\sqrt{2}}
