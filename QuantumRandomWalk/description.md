@@ -24,6 +24,7 @@ A common choice for this $2\times2$ coin is a Hadamard coin
 $$
 \mathcal{S}
 :=
+=
 \begin{pmatrix}
 1 & 1\newline
 1 & -1
