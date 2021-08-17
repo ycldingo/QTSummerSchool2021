@@ -50,9 +50,12 @@ $$
 \mathcal{H} = \mathcal{H}_c \otimes \mathcal{H}_p.
 $$
 
-Hence the state of the walker can be denoted by the tensor product of coin and position states as
+The state of the walker can thua be denoted by the tensor product of coin and position states as
 $$
 |\Psi\rangle = |\psi_c\rangle \otimes |\psi_p\rangle.
 $$
-
+Hence the state after $T$ steps from a given initial $|\Psi(0)\rangle$ is
+$$
+|\Psi(T)\rangle = \mathcal{U}^T |\Psi(0)\rangle.
+$$
 
