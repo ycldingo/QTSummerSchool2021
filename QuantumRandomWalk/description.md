@@ -24,13 +24,12 @@ A common choice for this $2\times2$ coin is a Hadamard coin
 $$
 \mathcal{S}
 :=
-=
-\dfrac{1}{\sqrt{2}}
 \begin{pmatrix}
-1 & 1\newline
+1 & 1\newliine
 1 & -1
 \end{pmatrix}.
 $$
+
 
   
 - Shift
