@@ -32,7 +32,7 @@ H
 \begin{pmatrix}
 1 & 1\newline
 1 & -1
-\end{pmatrix}.
+\end{pmatrix}
 $$
   
 - Shift
