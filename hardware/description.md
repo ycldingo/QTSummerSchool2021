@@ -57,7 +57,7 @@ sched2 = sched1 | sched2
         f(x) = 
         \begin{cases}
         g(x-r) & x \leq r \newline
-        A & r \leq x \leq d-r \\
+        A & r \leq x \leq d-r \newline
         g(x- (d-r)) & d-r \leq x
         \end{cases}
         $$
