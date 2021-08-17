@@ -25,7 +25,7 @@ $$
 \mathcal{S}
 :=
 \begin{pmatrix}
-1 & 1\newliine
+1 & 1\newline
 1 & -1
 \end{pmatrix}.
 $$
