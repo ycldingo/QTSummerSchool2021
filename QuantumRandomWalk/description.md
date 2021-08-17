@@ -22,12 +22,14 @@ For example, if a 1D case is in consideration, the coin is two-sided, correspond
 A common choice for this $2\times2$ coin is a Hadamard coin
 
 $$
-\mathcal{S}
+\mathcal{C}
 :=
-\displaystyle\sum_n
-|R\rangle \langle R| \otimes |n+1\rangle \langle n|
-+
-|L\rangle \langle L| \otimes |n-1\rangle \langle n|.
+=
+\dfrac{1}{\sqrt{2}}
+\begin{pmatrix}
+1 & 1\newline
+1 & -1
+\end{pmatrix}.
 $$
 
 
