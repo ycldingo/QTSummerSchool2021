@@ -20,7 +20,7 @@ $$ \begin{cases}
 \omega_1 - \omega_0 = \omega_{01} \newline
 \omega_2 - \omega_1 = \omega_{01} + \alpha \newline
 \omega_3 - \omega_2 = \omega_{01} + 2 \alpha \newline
-\vdots
+\vdots\newline
 \omega_n - \omega_{n-1} = \omega_{01} + (n-1) \alpha \newline
 \end{cases}. $$
 For different physical implement of quantum computers, both sign and the value of the anharmonicity are different. After finishing the exercise, please check your result with the [official document](https://quantum-computing.ibm.com/services?services=systems).
