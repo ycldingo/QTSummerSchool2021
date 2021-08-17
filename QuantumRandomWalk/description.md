@@ -22,6 +22,17 @@ For example, if a 1D case is in consideration, the coin is two-sided, correspond
 A common choice for this $2\times2$ coin is a Hadamard coin
 
 $$
+\mathcal{S}
+:=
+\displaystyle\sum_n
+|R\rangle \langle R| \otimes |n+1\rangle \langle n|
++
+|L\rangle \langle L| \otimes |n-1\rangle \langle n|.
+$$
+
+
+
+$$
 \mathcal{C}
 =
 H
