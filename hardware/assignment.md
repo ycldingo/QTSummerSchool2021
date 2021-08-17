@@ -13,6 +13,7 @@ where $\omega = 2\pi f$. Is $\alpha$ positive or negative? If you further explor
 $$ \begin{cases}
 \omega_{01} - \omega_{12} = \alpha \newline
 \omega_{01} - \omega_{23} = 2\alpha \newline
+\vdots
 \end{cases}, $$
 that is,
 $$ \begin{cases}
