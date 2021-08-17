@@ -22,8 +22,8 @@ For example, if a 1D case is in consideration, the coin is two-sided, correspond
 A common choice for this $2\times2$ coin is a Hadamard coin
 
 $$
-\mathcal{S}
-=
+\mathcal{C}
+:=H=
 \begin{pmatrix}
 1 & 1\newline
 1 & -1
