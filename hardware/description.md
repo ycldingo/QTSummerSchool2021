@@ -50,13 +50,13 @@ sched2 = sched1 | sched2
 ## Pulse Library (`qiskit.pulse.library`)
 1. Descrete pulses
     1. `constant(duration, amp)`: $$f(x) = A$$
-    2. `cos(duration, amp, freq, phase)`: $$f(x) = A \cos (2\pi\omega x + \phi)$ $
+    2. `cos(duration, amp, freq, phase)`: $$f(x) = A \cos (2\pi\omega x + \phi)$$
     3. `gaussian(duration, amp, sigma)`: $$f(x) = A \exp \left( \dfrac{(x-\mu)^2}{4\sigma^2} \right)$$, where $\mu =$`duration`$/2$.
     4. `gaussian_square(duration, amp, sigma, risefall, width)`: 
         $$
         f(x) = 
         \begin{cases}
-        g(x-r) & x \leq r \\
+        g(x-r) & x \leq r \newline
         A & r \leq x \leq d-r \\
         g(x- (d-r)) & d-r \leq x
         \end{cases}
