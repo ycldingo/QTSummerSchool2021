@@ -6,7 +6,7 @@ Please compare the measurement results for the two pulses and discuss about the 
 
 
 
-# Assignment 2: 1-2 Transition for s Superconducting Qubit
+# Assignment 2: 1-2 Transition for a Superconducting Qubit
 Please find the 1-2 transition frequency  $f_{12}$  of a real device, and calculate the difference between  $f_{01}$  and  $f_{12}$ . This frequency difference is defined as the anharmonicity  $\alpha$  of the quantum system:
 $$ \alpha := \omega_{01} - \omega_{12}, $$
 where $\omega = 2\pi f$. Is $\alpha$ positive or negative? If you further explore the higher energy levels, you are may find out that these levels follow a relation
