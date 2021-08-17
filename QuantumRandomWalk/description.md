@@ -17,34 +17,33 @@ In this topic, we will
 There are two essential elements for random walks, regardless of their version:
 - Coin
  
-  The coin operation $\mathcal{C}$ determines the direction of the walker.
-  For example, if a 1D case is in consideration, the coin is two-sided, corresponding to the forward $|R\rangle$ and backward $|L\rangle$ shifting options.
-  
- A common choice for this $2\times2$ coin is a Hadamard coin
-  $$
-  \mathcal{C}
-  :=
-  H
-  =
-  \dfrac{1}{\sqrt{2}}
-  \begin{pmatrix}
-  1 & 1\\
-  1 & -1
-  \end{pmatrix}.
-  $$
+The coin operation $\mathcal{C}$ determines the direction of the walker.
+For example, if a 1D case is in consideration, the coin is two-sided, corresponding to the forward $|R\rangle$ and backward $|L\rangle$ shifting options.  
+A common choice for this $2\times2$ coin is a Hadamard coin
+$$
+\mathcal{C}
+:=
+H
+=
+\dfrac{1}{\sqrt{2}}
+\begin{pmatrix}
+1 & 1\\
+1 & -1
+\end{pmatrix}.
+$$
   
 - Shift
   
-  The conditional shift operation $\mathcal{S}$ will shift the walker according to its coin state.
-  The operator is given by
-  $$
-  \mathcal{S}
-  :=
-  \displaystyle\sum_n
-  |R\rangle \langle R| \otimes |n+1\rangle \langle n|
-  +
-  |L\rangle \langle L| \otimes |n-1\rangle \langle n|.
-  $$
+The conditional shift operation $\mathcal{S}$ will shift the walker according to its coin state.
+The operator is given by
+$$
+\mathcal{S}
+:=
+\displaystyle\sum_n
+|R\rangle \langle R| \otimes |n+1\rangle \langle n|
++
+|L\rangle \langle L| \otimes |n-1\rangle \langle n|.
+$$
 
 Therefore, the time evolution of the walker will be a combination of the coin and the shift.
 For the quantum random walk, the propagator reads
