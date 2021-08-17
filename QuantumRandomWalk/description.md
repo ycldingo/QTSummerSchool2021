@@ -15,7 +15,7 @@ In this topic, we will
 ## Basic elements of random walks
 
 There are two essential elements for random walks, regardless of their version:
-
+- Coin
 - Coin
   The coin operation $\mathcal{C}$ determines the direction of the walker.
   For example, if a 1D case is in consideration, the coin is two-sided, corresponding to the forward $|R\rangle$ and backward $|L\rangle$ shifting options.
