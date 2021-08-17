@@ -31,6 +31,7 @@ $$
 $$
 
 - Shift
+
 The conditional shift operation $\mathcal{S}$ will shift the walker according to its coin state.
 The operator is given by
 $$
