@@ -40,6 +40,7 @@ $$
 The summation over $n$ goes over all available position.
 Therefore, the time evolution of the walker will be a combination of the coin and the shift.
 For the quantum random walk, the propagator reads
+
 $$
 \mathcal{U} = \mathcal{S} \mathcal{C}.
 $$
@@ -49,5 +50,9 @@ $$
 \mathcal{H} = \mathcal{H}_c \otimes \mathcal{H}_p.
 $$
 
+Hence the state of the walker can be denoted by the tensor product of coin and position states as
+$$
+|\Psi\rangle = |\psi_c\rangle \otimes |\psi_p\rangle.
+$$
 
 
