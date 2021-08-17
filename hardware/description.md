@@ -71,3 +71,5 @@ sched2 = sched1 | sched2
         \right)
         \right]
         $$
+    6. `triangle(duration, amp, freq, phase)`: $$ f(x) = A (-2 |\text{sawtooth} (x,A,T,\phi)| + 1) $$
+    7. `zero(duration)`: $$ f(x) = 0$$ for `duration`.
