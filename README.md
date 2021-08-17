@@ -15,3 +15,4 @@
 - Materials for NTU Quantum Computing Summer School
   - [2020](https://github.com/ycldingo/QuantumComputing_2020Summer)
   - [2019](https://github.com/m24639297/2019-summer-QC)
+- [Quantum Open Source Foundation](https://qosf.org/)
