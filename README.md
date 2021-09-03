@@ -18,9 +18,16 @@
 
 Note: The _italic titles_ are the selected topics.
 
+## Preview assignment
+- Vedios
+  - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+  - [If you don't understand quantum mechanics, try this!](https://youtu.be/Usu9xZfabPM)
+- Programming
+  - [Introduction to Python and Jupyter notebooks](https://learn.qiskit.org/course/ch-prerequisites/introduction-to-python-and-jupyter-notebooks)
 
 
-# Reference & Further Studying
+
+## Reference & Further Studying
 - [Qiskit textbook](https://qiskit.org/textbook/preface.html)
 - [Qiskit documantation](https://qiskit.org/documentation/)
 - [Qiskit GitHub](https://github.com/Qiskit)
