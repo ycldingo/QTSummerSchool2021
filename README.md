@@ -16,7 +16,7 @@
   - Walking patterns
   - Project: Randomly walks in quantum and classical
 
-Note: The _italic titles_ are the selected topics.
+Note: The _italic titles_ are the selected topics. All demonstration and content will be remoted.
 
 ## Preview assignment
 - Vedios
