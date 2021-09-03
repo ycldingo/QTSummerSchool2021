@@ -1,4 +1,21 @@
 # 2021 Quantum Technology Summer School
+## Outline for demonstration class: Experience IBM Quantum
+- IBM Quantum
+  - Composer - building in seconds
+  - Execution via quantum processors
+  - Nutrition facts of real devices
+  - Advanced player: Quantum Lab 
+- Hardware outlook
+  - From Bloch sphere to qubit
+  - Gates & states
+  - Errors: lifetime, leakage, and all that
+  - _Driving pulse_
+  - _Janyes-Cumming model_
+- Quantum random walks
+  - Elements: coin & shift
+  - Walking patterns
+  - Project: Randomly walks in quantum and classical
+The _italic titles_ are the selected topics.
 
 
 
