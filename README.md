@@ -16,7 +16,9 @@
   - Walking patterns
   - Project: Randomly walks in quantum and classical
 
-Note: The _italic titles_ are the selected topics. All demonstration and content will be remoted.
+Note: 
+1. The _italic titles_ are the selected topics. All demonstration and content will be remoted.
+2. Class materials are in the folder [materials](https://github.com/ycldingo/QTSummerSchool2021/tree/main/materials)
 
 ## Preview assignment
 - Vedios
