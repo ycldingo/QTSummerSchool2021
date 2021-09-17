@@ -18,7 +18,8 @@
 
 Note: 
 1. The _italic titles_ are the selected topics. All demonstration and content will be remoted.
-2. Class materials are in the folder [materials](https://github.com/ycldingo/QTSummerSchool2021/tree/main/materials)
+2. Class materials are in the folder [materials](https://github.com/ycldingo/QTSummerSchool2021/tree/main/materials).
+3. Demonstrations are [here](https://github.com/ycldingo/QTSummerSchool2021/tree/main/materials/demo).
 
 ## Preview assignment
 - Vedios
