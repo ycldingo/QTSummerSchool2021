@@ -42,3 +42,4 @@ Note: The _italic titles_ are the selected topics. All demonstration and content
   - [2020](https://github.com/ycldingo/QuantumComputing_2020Summer)
   - [2019](https://github.com/m24639297/2019-summer-QC)
 - [Quantum Open Source Foundation](https://qosf.org/)
+- [The Quantum Atlas](https://quantumatlas.umd.edu/)
